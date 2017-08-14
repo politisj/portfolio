@@ -1,12 +1,287 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Portfolio</title>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>John's Portfolio</title>
+
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <link href="css/agency.css" rel="stylesheet">
+
 </head>
-<body>
-    <h2>Under construction</h2>
+
+<body id="page-top" class="index">
+    <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Hi, I am John Politis</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header>
+        <div class="container">
+            <div class="intro-text">
+                <div class="intro-lead-in">Welcome !</div>
+                <div class="intro-heading">It's Nice To Meet You</div>
+                <a href="#portfolio" class="page-scroll btn btn-xl">Tell Me More</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="portfolio" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Portfolio</h2>
+                    <h3 class="section-subheading text-muted">Below are some of the projects I have created</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioTicTacToe" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/tictactoe.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Tic Tac Toe</h4>
+                        <p class="text-muted">The Classic O's and X's Game</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioMelsa" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/melsa.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Melsa</h4>
+                        <p class="text-muted">Melsa Social and media networking</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioSpinMyWorld" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/spin-my-world.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>SpinMy-World</h4>
+                        <p class="text-muted">MicroController Interactions</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">About</h2>
+                    <h3 class="section-subheading text-muted">Full Stack Web Developer / Salesforce Developer</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="timeline">
+                        <li>
+                            <div class="timeline-image">
+                                <img id="aboutme-image" class="img-circle img-responsive" src="img/about/john.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>2017</h4>
+                                    <h4 class="subheading">My Story</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">
+                                        I have recenlty graduated from General Assembly where I undertook the Web Developers Immersive training course. This is an intensive three
+                                        months full time course which outlines the full software stack that is required to develop Web solutions. I also
+                                        have extensive experience in the Salesforce platform as a developer revolving around integration and customer customizations.
+                                    </p>
+                                    <br>
+                                    <p>My email is: <strong>politisj@gmail.com</strong></p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <span class="copyright">Copyright &copy; John Politis 2017</span>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline social-buttons">
+                        <li><a href="https://github.com/politisj" target="_blank"><i class="fa fa-github"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/john-politis/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline quicklinks">
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Use</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="portfolio-modal modal fade" id="portfolioTicTacToe" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2>Tic Tac Toe</h2>
+                                <img class="img-responsive img-centered" src="img/portfolio/tictactoe.png" alt="">
+                                <p>Tic-tac-toe (also known as noughts and crosses or Xs and Os) is a paper-and-pencil game for two players, X and O,
+                                    who take turns marking the spaces in a 3×3 grid. The player who succeeds in placing three of their marks in a horizontal,
+                                    vertical, or diagonal row wins the game.
+                                </p>
+                                <!-- <a class="btn btn-large btn-info" href="https://politisj.github.io/tictactoe/" target="_blank">Live Link</a> -->
+                                <p>You can preview.&nbsp;<a href="https://politisj.github.io/tictactoe/" target="_blank">here</a></p>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="portfolioMelsa" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2>Melsa</h2>
+                                <p class="item-intro text-muted">Melsa Social and media networking</p>
+                                <img class="img-responsive img-centered" src="img/portfolio/melsa.png" alt="">
+                                <p>
+                                    Melsa is an online social media and social networking service available to anyone that wants to callaborate or to keep in touch with friends.
+                                    Melsa may be accessed by a large range of desktops, laptops, tablet computers, and smartphones over the Internet and mobile networks. After
+                                    registering to use the site, users can create a user profile indicating their name, occupation, schools attended and so on.
+                                    Currently the initial release of Melsa only supports posting messages.
+                                </p>
+                                <p>You can preview Melsa &nbsp; <a href="https://melsa.herokuapp.com/" target="_blank">here</a>.</p>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="portfolioSpinMyWorld" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>SpinMy World</h2>
+                                <p class="item-intro text-muted">Spins the Earth using an accelerometer</p>
+                                <img class="img-responsive img-centered" src="img/portfolio/spin-my-world.png" alt="">
+                                <p>
+                                    Spin my world is built to show a 3D model of the Earth spinning as the Accelerometer is moved. This project has a few parts in order to make it work. First of all I use a Accelerometer / Gyro attached to a microcontroller development board( Beagle Bone Black).
+                                    This board is physically connected to the host PC running a browser. On the Browser I load SpinMy-World and it automatically connects to the microcontroller at the address 192.168.7.2.
+                                    On the microcontroller bbb-mpu6050-socket-server is started , this will listen on port 8888 for incoming requests from the client.The client subscribes to the Accelerometer and gyro channels in which it will recieve a continuous live feed containing (x,y,z) values from the sensor.
+                                    <br>
+                                    These sensor readings are used by the client browser to spin the Globe.
+                                </p>
+                                <p>The code is available on git hub &nbsp; <a href="https://github.com/politisj/spinmy-world" target="_blank">here</a>.</p>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js" integrity="sha384-mE6eXfrb8jxl0rzJDBRanYqgBxtJ6Unn4/1F7q4xRRyIw7Vdg9jP4ycT7x1iVsgb" crossorigin="anonymous"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/agency.min.js"></script>
+
 </body>
+
 </html>
